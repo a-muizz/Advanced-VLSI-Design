@@ -49,6 +49,6 @@ A hardware NCO generates a digital sine (and cosine) wave by accumulating a phas
 - screenshots contains images of the bin 10 spike
 - source contains the files for my_fft, my_nco, fft_wrapper, control_for_fft and the testbench code files
 
-##References
+## References
 - YouTube overview: Veritasium’s [“Fast Fourier Transform”](https://www.youtube.com/watch?v=nmgFG7PUHfo&ab_channel=Veritasium).
 - YouTube overview: Visual Electric's ["FFT on FPGA"](https://www.youtube.com/watch?v=DgRVqS4Dw9g&ab_channel=VisualElectric).
