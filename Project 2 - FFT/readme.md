@@ -11,14 +11,7 @@ This project implements a Fast Fourier Transform (FFT) pipeline in Verilog—wra
    - [Fast Fourier Transform](#fast-fourier-transform)  
    - [Numerically Controlled Oscillator (NCO)](#numerically-controlled-oscillator-nco)  
 3. [Repository Structure](#repository-structure)  
-4. [Getting Started](#getting-started)  
-   - [Prerequisites](#prerequisites)  
-   - [Simulation Flow](#simulation-flow)  
-5. [Design Modules](#design-modules)  
-6. [Testbench & Results](#testbench--results)  
-7. [Usage](#usage)  
-8. [Acknowledgements](#acknowledgements)  
-9. [References](#references)  
+4. [References](#references)  
 
 ---
 
@@ -49,4 +42,13 @@ A hardware NCO generates a digital sine (and cosine) wave by accumulating a phas
 ---
 
 ## Repository Structure
+- This repository contains multiple sub folders.
+- my_fft contains the mega function the wrapper initializes to integrate an FFT core.
+- my_nco contains the Numerically controlled oscillator used to generate an input signal.
+- reports contains a pdf slideshow overviewing this project
+- screenshots contains images of the bin 10 spike
+- source contains the files for my_fft, my_nco, fft_wrapper, control_for_fft and the testbench code files
 
+##References
+- YouTube overview: Veritasium’s [“Fast Fourier Transform”](https://www.youtube.com/watch?v=nmgFG7PUHfo&ab_channel=Veritasium).
+- YouTube overview: Visual Electric's ["FFT on FPGA"](https://www.youtube.com/watch?v=DgRVqS4Dw9g&ab_channel=VisualElectric).
